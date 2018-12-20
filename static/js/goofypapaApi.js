@@ -72,6 +72,7 @@ function goofypapaPlayAudio( p_audio_url, p_finish_call_back )
 
 function goofypapaStopAudio( p_audio_url )
 {
+  alert('zhixingle')
     __audioFinishCallBack( p_audio_url );
     window.location.href = "goofypapa://stopAudio," + p_audio_url;
 }
